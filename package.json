@@ -1,0 +1,14 @@
+{
+  "name": "css-smoke-effect",
+  "version": "1.0.0",
+  "description": "![\"CSS Smoke Effect | CSS Animation\"](https://user-images.githubusercontent.com/67447840/182862575-b1cef7a6-8e54-4d20-a666-7684831d43ac.gif \"CSS Smoke Effect | CSS Animation\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

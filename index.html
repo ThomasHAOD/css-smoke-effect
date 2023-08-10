@@ -6,24 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Smoke effect</title>
-  <link rel="stylesheet" href="./index.css">
+  <link href="/dist/output.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="./index.css"> -->
 </head>
 
-<body>
-
-  <div class="cup-wrap">
-    <div class="cup">
-      <img src="./assets/cup.png" alt="cup">
+<body class="p-0 m-0 box-border h-screen flex items-center justify-items-center bg-[#160e0e]">
+  <div class="w-[500px] h-[600px] relative">
+    <div class="absolute bottom-0">
+      <img src="./assets/cup.png" alt="cup" class="max-w-full">
     </div>
 
-    <div class="smoke-wrap">
-      <img class="smoke" src="./assets/smoke.png" alt="smoke">
+    <div class="absolute left-1/2 -translate-x-1/2 bottom-[222px]">
+      <img class="blur-[5px] origin-center animate-smoke1 delay-500" src="./assets/smoke.png" alt="smoke">
     </div>
-    <div class="smoke-wrap">
-      <img class="smoke2" src="./assets/smoke.png" alt="smoke">
+    <div class="absolute left-1/2 -translate-x-1/2 bottom-[222px]">
+      <img class="blur-[5px] origin-center animate-smoke2 delay-[1.5s]" src="./assets/smoke.png" alt="smoke">
     </div>
-    <div class="smoke-wrap">
-      <img class="smoke3" src="./assets/smoke.png" alt="smoke">
+    <div class="absolute left-1/2 -translate-x-1/2 bottom-[222px]">
+      <img class="blur-[5px] origin-center animate-smoke3 delay-[2.5s] w-[500px]" src="./assets/smoke.png" alt="smoke">
     </div>
   </div>
 
