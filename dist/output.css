@@ -558,6 +558,10 @@ video {
   margin: 0px;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .box-border {
   box-sizing: border-box;
 }
